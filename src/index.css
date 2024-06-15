@@ -377,8 +377,8 @@ body{
     height: 60px;
   }
   .homePage nav img{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
   }
   .homePage nav ul{
     gap: 6px;
@@ -417,7 +417,6 @@ body{
   h1{
     margin-bottom: 0.1rem;
   }
-
   .homePage .homeTextPic{
     display: grid;
     grid-template-columns: 1fr;
@@ -514,7 +513,7 @@ body{
   .homePage nav{
     justify-content: space-between;
     padding: 8px 5rem;
-    background-image: url("./img/sp1-bg.gif");
+    background: var(--tertiary-color-dark-blue);
     background-position: center;
     background-repeat: repeat;
     position: fixed;
